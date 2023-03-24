@@ -1,0 +1,23 @@
+﻿@using CSPExample.PredefinedReports
+@using CSPExample.Models
+@model ViewerModel
+
+@{
+    var viewerRender = Html.DevExpress().WebDocumentViewer("DocumentViewer")
+        .Height(null)
+        .Width(null)
+        .Nonce(Model.Nonce)
+        .CssClassName("my-reporting-component")
+        .Bind(Model.ViewerModelToBind);
+    @viewerRender.RenderHtml()
+}
+
+@section Scripts {
+    <link href="~/css/dx-reporting-skeleton-screen.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/viewer.part.bundle.css" />
+    <link rel="stylesheet" href="~/css/dx.light.bundle.css" />
+    <script src="~/js/reporting.thirdparty.bundle.js"></script>
+    <script src="~/js/viewer.part.bundle.js"></script>
+
+    @viewerRender.RenderScripts()
+}

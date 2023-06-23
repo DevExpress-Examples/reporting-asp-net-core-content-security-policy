@@ -249,7 +249,7 @@
       "node_modules/ace-builds/src-min-noconflict/ace.js",
       "node_modules/ace-builds/src-min-noconflict/ext-language_tools.js",
       "node_modules/ace-builds/src-min-noconflict/snippets/text.js"
-      ],
+    ],
     "minify": {
       "enabled": false
     },
@@ -258,10 +258,10 @@
   {
     "outputFileName": "wwwroot/js/viewer.part.bundle.js",
     "inputFiles": [
-      "node_modules/devextreme/dist/js/dx.all.js",
+      "node_modules/devextreme-dist/js/dx.all.js",
       "node_modules/@devexpress/analytics-core/dist/js/dx-analytics-core.min.js",
       "node_modules/devexpress-reporting/dist/js/dx-webdocumentviewer.min.js"
-      ],
+    ],
     "minify": {
       "enabled": false
     },

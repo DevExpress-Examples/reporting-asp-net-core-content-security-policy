@@ -61,7 +61,8 @@ On the page, pass the nonce value to the `Nonce` method:
 
 ## Files to Review
 
-- [DashboardModel.cs](./CS/CSPExample/Controllers/HomeController.cs)
+- [HomeController.cs](./CS/CSPExample/Controllers/HomeController.cs)
+
 - [Designer.cshtml](./CS/CSPExample/Views/Home/Designer.cshtml)
 - [Viewer.cshtml](./CS/CSPExample/Views/Home/Viewer.cshtml)
 

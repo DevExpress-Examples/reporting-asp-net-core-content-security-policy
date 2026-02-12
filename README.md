@@ -71,7 +71,7 @@ On the page, pass the nonce value to the `Nonce` method:
 
 - [Content Security Policy](https://docs.devexpress.com/XtraReports/404141/web-reporting/web-reporting-application-security/content-security-policy)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-asp-net-core-content-security-policy&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-asp-net-core-content-security-policy&~~~was_helpful=no)
 
